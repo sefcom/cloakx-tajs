@@ -1,0 +1,80 @@
+apply plugin: 'java'
+apply plugin: 'cz.habarta.typescript-generator'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-json-provider', version: '2.6.3'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'org.eclipse.jetty', name: 'jetty-webapp', version: '9.4.5.v20170502'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'src_client/gradle_dist'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'cz.habarta.typescript-generator', name: 'typescript-generator-gradle-plugin', version: '1.19.294'
+    }
+}
+
+task generateApiDocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+    title = 'TAJS Inspector API documentation'
+}
+generateTypeScript {
+    outputFile = 'src_client/src/app/api.d.ts'
+    classPatterns = [
+            'dk.brics.inspector.api.model.**'
+    ]
+    customTypeMappings = [
+            'dk.brics.inspector.api.model.ids.AbstractID:String',
+            'java.nio.file.Path:string'
+    ]
+    jsonLibrary = 'jackson2'
+    outputKind = 'global'
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+}
+
+task npmInstall(type:Exec) {
+  workingDir 'src_client'
+  commandLine 'npm', 'install'
+}
+
+task buildAngular(type:Exec) {
+  workingDir 'src_client'
+
+  commandLine 'node_modules/@angular/cli/bin/ng', 'build', '--prod', '--aot', '--output-path', 'gradle_dist/dk/brics/inspector/client/standard-js-client'
+
+  //store the output instead of printing to the console:
+  standardOutput = new ByteArrayOutputStream()
+
+  ext.output = {
+    return standardOutput.toString()
+  }
+}
+
+buildAngular.dependsOn npmInstall
+compileJava.dependsOn buildAngular

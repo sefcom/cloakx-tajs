@@ -1,0 +1,5522 @@
+{
+  "BookmarkTreeNodeUnmodifiable": {
+    "MANAGED": "string"
+  }, 
+  "CameraContentSetting": {
+    "ALLOW": "string", 
+    "ASK": "string", 
+    "BLOCK": "string"
+  }, 
+  "ContextType": {
+    "ALL": "string", 
+    "AUDIO": "string", 
+    "BROWSER_ACTION": "string", 
+    "EDITABLE": "string", 
+    "FRAME": "string", 
+    "IMAGE": "string", 
+    "LAUNCHER": "string", 
+    "LINK": "string", 
+    "PAGE": "string", 
+    "PAGE_ACTION": "string", 
+    "SELECTION": "string", 
+    "VIDEO": "string"
+  }, 
+  "CookiesContentSetting": {
+    "ALLOW": "string", 
+    "BLOCK": "string", 
+    "SESSION_ONLY": "string"
+  }, 
+  "CreateType": {
+    "NORMAL": "string", 
+    "PANEL": "string", 
+    "POPUP": "string"
+  }, 
+  "DangerType": {
+    "ACCEPTED": "string", 
+    "CONTENT": "string", 
+    "FILE": "string", 
+    "HOST": "string", 
+    "SAFE": "string", 
+    "UNCOMMON": "string", 
+    "UNWANTED": "string", 
+    "URL": "string"
+  }, 
+  "DesktopCaptureSourceType": {
+    "AUDIO": "string", 
+    "SCREEN": "string", 
+    "TAB": "string", 
+    "WINDOW": "string"
+  }, 
+  "DetachReason": {
+    "CANCELED_BY_USER": "string", 
+    "REPLACED_WITH_DEVTOOLS": "string", 
+    "TARGET_CLOSED": "string"
+  }, 
+  "EjectDeviceResultCode": {
+    "FAILURE": "string", 
+    "IN_USE": "string", 
+    "NO_SUCH_DEVICE": "string", 
+    "SUCCESS": "string"
+  }, 
+  "Event": "function", 
+  "EventType": {
+    "CANCELLED": "string", 
+    "END": "string", 
+    "ERROR": "string", 
+    "INTERRUPTED": "string", 
+    "MARKER": "string", 
+    "PAUSE": "string", 
+    "RESUME": "string", 
+    "SENTENCE": "string", 
+    "START": "string", 
+    "WORD": "string"
+  }, 
+  "ExtensionDisabledReason": {
+    "PERMISSIONS_INCREASE": "string", 
+    "UNKNOWN": "string"
+  }, 
+  "ExtensionInstallType": {
+    "ADMIN": "string", 
+    "DEVELOPMENT": "string", 
+    "NORMAL": "string", 
+    "OTHER": "string", 
+    "SIDELOAD": "string"
+  }, 
+  "ExtensionType": {
+    "EXTENSION": "string", 
+    "HOSTED_APP": "string", 
+    "LEGACY_PACKAGED_APP": "string", 
+    "PACKAGED_APP": "string", 
+    "THEME": "string"
+  }, 
+  "FilenameConflictAction": {
+    "OVERWRITE": "string", 
+    "PROMPT": "string", 
+    "UNIQUIFY": "string"
+  }, 
+  "FullscreenContentSetting": {
+    "ALLOW": "string"
+  }, 
+  "GenericFamily": {
+    "CURSIVE": "string", 
+    "FANTASY": "string", 
+    "FIXED": "string", 
+    "SANSSERIF": "string", 
+    "SERIF": "string", 
+    "STANDARD": "string"
+  }, 
+  "HttpMethod": {
+    "GET": "string", 
+    "POST": "string"
+  }, 
+  "IPHandlingPolicy": {
+    "DEFAULT": "string", 
+    "DEFAULT_PUBLIC_AND_PRIVATE_INTERFACES": "string", 
+    "DEFAULT_PUBLIC_INTERFACE_ONLY": "string", 
+    "DISABLE_NON_PROXIED_UDP": "string"
+  }, 
+  "IdleState": {
+    "ACTIVE": "string", 
+    "IDLE": "string", 
+    "LOCKED": "string"
+  }, 
+  "ImagesContentSetting": {
+    "ALLOW": "string", 
+    "BLOCK": "string"
+  }, 
+  "InterruptReason": {
+    "CRASH": "string", 
+    "FILE_ACCESS_DENIED": "string", 
+    "FILE_BLOCKED": "string", 
+    "FILE_FAILED": "string", 
+    "FILE_HASH_MISMATCH": "string", 
+    "FILE_NAME_TOO_LONG": "string", 
+    "FILE_NO_SPACE": "string", 
+    "FILE_SAME_AS_SOURCE": "string", 
+    "FILE_SECURITY_CHECK_FAILED": "string", 
+    "FILE_TOO_LARGE": "string", 
+    "FILE_TOO_SHORT": "string", 
+    "FILE_TRANSIENT_ERROR": "string", 
+    "FILE_VIRUS_INFECTED": "string", 
+    "NETWORK_DISCONNECTED": "string", 
+    "NETWORK_FAILED": "string", 
+    "NETWORK_INVALID_REQUEST": "string", 
+    "NETWORK_SERVER_DOWN": "string", 
+    "NETWORK_TIMEOUT": "string", 
+    "SERVER_BAD_CONTENT": "string", 
+    "SERVER_CERT_PROBLEM": "string", 
+    "SERVER_CONTENT_LENGTH_MISMATCH": "string", 
+    "SERVER_FAILED": "string", 
+    "SERVER_FORBIDDEN": "string", 
+    "SERVER_NO_RANGE": "string", 
+    "SERVER_UNAUTHORIZED": "string", 
+    "SERVER_UNREACHABLE": "string", 
+    "USER_CANCELED": "string", 
+    "USER_SHUTDOWN": "string"
+  }, 
+  "ItemType": {
+    "CHECKBOX": "string", 
+    "NORMAL": "string", 
+    "RADIO": "string", 
+    "SEPARATOR": "string"
+  }, 
+  "JavascriptContentSetting": {
+    "ALLOW": "string", 
+    "BLOCK": "string"
+  }, 
+  "LaunchType": {
+    "OPEN_AS_PINNED_TAB": "string", 
+    "OPEN_AS_REGULAR_TAB": "string", 
+    "OPEN_AS_WINDOW": "string", 
+    "OPEN_FULL_SCREEN": "string"
+  }, 
+  "LayoutPosition": {
+    "BOTTOM": "string", 
+    "LEFT": "string", 
+    "RIGHT": "string", 
+    "TOP": "string"
+  }, 
+  "Level": {
+    "DISPLAY": "string", 
+    "SYSTEM": "string"
+  }, 
+  "LevelOfControl": {
+    "CONTROLLABLE_BY_THIS_EXTENSION": "string", 
+    "CONTROLLED_BY_OTHER_EXTENSIONS": "string", 
+    "CONTROLLED_BY_THIS_EXTENSION": "string", 
+    "NOT_CONTROLLABLE": "string"
+  }, 
+  "LocationContentSetting": {
+    "ALLOW": "string", 
+    "ASK": "string", 
+    "BLOCK": "string"
+  }, 
+  "MicrophoneContentSetting": {
+    "ALLOW": "string", 
+    "ASK": "string", 
+    "BLOCK": "string"
+  }, 
+  "Mode": {
+    "AUTO_DETECT": "string", 
+    "DIRECT": "string", 
+    "FIXED_SERVERS": "string", 
+    "PAC_SCRIPT": "string", 
+    "SYSTEM": "string"
+  }, 
+  "MouselockContentSetting": {
+    "ALLOW": "string"
+  }, 
+  "MultipleAutomaticDownloadsContentSetting": {
+    "ALLOW": "string", 
+    "ASK": "string", 
+    "BLOCK": "string"
+  }, 
+  "MutedInfoReason": {
+    "CAPTURE": "string", 
+    "EXTENSION": "string", 
+    "USER": "string"
+  }, 
+  "NotificationsContentSetting": {
+    "ALLOW": "string", 
+    "ASK": "string", 
+    "BLOCK": "string"
+  }, 
+  "OnAuthRequiredOptions": {
+    "ASYNC_BLOCKING": "string", 
+    "BLOCKING": "string", 
+    "RESPONSE_HEADERS": "string"
+  }, 
+  "OnBeforeRedirectOptions": {
+    "RESPONSE_HEADERS": "string"
+  }, 
+  "OnBeforeRequestOptions": {
+    "BLOCKING": "string", 
+    "REQUEST_BODY": "string"
+  }, 
+  "OnBeforeSendHeadersOptions": {
+    "BLOCKING": "string", 
+    "REQUEST_HEADERS": "string"
+  }, 
+  "OnChangedCause": {
+    "EVICTED": "string", 
+    "EXPIRED": "string", 
+    "EXPIRED_OVERWRITE": "string", 
+    "EXPLICIT": "string", 
+    "OVERWRITE": "string"
+  }, 
+  "OnCompletedOptions": {
+    "RESPONSE_HEADERS": "string"
+  }, 
+  "OnHeadersReceivedOptions": {
+    "BLOCKING": "string", 
+    "RESPONSE_HEADERS": "string"
+  }, 
+  "OnInstalledReason": {
+    "CHROME_UPDATE": "string", 
+    "INSTALL": "string", 
+    "SHARED_MODULE_UPDATE": "string", 
+    "UPDATE": "string"
+  }, 
+  "OnResponseStartedOptions": {
+    "RESPONSE_HEADERS": "string"
+  }, 
+  "OnRestartRequiredReason": {
+    "APP_UPDATE": "string", 
+    "OS_UPDATE": "string", 
+    "PERIODIC": "string"
+  }, 
+  "OnSendHeadersOptions": {
+    "REQUEST_HEADERS": "string"
+  }, 
+  "PageStateMatcherInstanceType": {
+    "DECLARATIVE_CONTENT_PAGE_STATE_MATCHER": "string"
+  }, 
+  "PermissionLevel": {
+    "DENIED": "string", 
+    "GRANTED": "string"
+  }, 
+  "PlatformArch": {
+    "ARM": "string", 
+    "X86_32": "string", 
+    "X86_64": "string"
+  }, 
+  "PlatformNaclArch": {
+    "ARM": "string", 
+    "X86_32": "string", 
+    "X86_64": "string"
+  }, 
+  "PlatformOs": {
+    "ANDROID": "string", 
+    "CROS": "string", 
+    "LINUX": "string", 
+    "MAC": "string", 
+    "OPENBSD": "string", 
+    "WIN": "string"
+  }, 
+  "PluginsContentSetting": {
+    "ALLOW": "string", 
+    "BLOCK": "string", 
+    "DETECT_IMPORTANT_CONTENT": "string"
+  }, 
+  "PopupsContentSetting": {
+    "ALLOW": "string", 
+    "BLOCK": "string"
+  }, 
+  "PpapiBrokerContentSetting": {
+    "ALLOW": "string", 
+    "ASK": "string", 
+    "BLOCK": "string"
+  }, 
+  "PrintError": {
+    "FAILED": "string", 
+    "INVALID_DATA": "string", 
+    "INVALID_TICKET": "string", 
+    "OK": "string"
+  }, 
+  "RequestContentScriptInstanceType": {
+    "DECLARATIVE_CONTENT_REQUEST_CONTENT_SCRIPT": "string"
+  }, 
+  "RequestUpdateCheckStatus": {
+    "NO_UPDATE": "string", 
+    "THROTTLED": "string", 
+    "UPDATE_AVAILABLE": "string"
+  }, 
+  "ResourceType": {
+    "CSP_REPORT": "string", 
+    "FONT": "string", 
+    "IMAGE": "string", 
+    "MAIN_FRAME": "string", 
+    "MEDIA": "string", 
+    "OBJECT": "string", 
+    "OTHER": "string", 
+    "PING": "string", 
+    "SCRIPT": "string", 
+    "STYLESHEET": "string", 
+    "SUB_FRAME": "string", 
+    "WEBSOCKET": "string", 
+    "XMLHTTPREQUEST": "string"
+  }, 
+  "SameSiteStatus": {
+    "LAX": "string", 
+    "NO_RESTRICTION": "string", 
+    "STRICT": "string"
+  }, 
+  "Scheme": {
+    "HTTP": "string", 
+    "HTTPS": "string", 
+    "QUIC": "string", 
+    "SOCKS4": "string", 
+    "SOCKS5": "string"
+  }, 
+  "Scope": {
+    "INCOGNITO_SESSION_ONLY": "string", 
+    "REGULAR": "string"
+  }, 
+  "ScriptCode": {
+    "AFAK": "string", 
+    "ARAB": "string", 
+    "ARMI": "string", 
+    "ARMN": "string", 
+    "AVST": "string", 
+    "BALI": "string", 
+    "BAMU": "string", 
+    "BASS": "string", 
+    "BATK": "string", 
+    "BENG": "string", 
+    "BLIS": "string", 
+    "BOPO": "string", 
+    "BRAH": "string", 
+    "BRAI": "string", 
+    "BUGI": "string", 
+    "BUHD": "string", 
+    "CAKM": "string", 
+    "CANS": "string", 
+    "CARI": "string", 
+    "CHAM": "string", 
+    "CHER": "string", 
+    "CIRT": "string", 
+    "COPT": "string", 
+    "CPRT": "string", 
+    "CYRL": "string", 
+    "CYRS": "string", 
+    "DEVA": "string", 
+    "DSRT": "string", 
+    "DUPL": "string", 
+    "EGYD": "string", 
+    "EGYH": "string", 
+    "EGYP": "string", 
+    "ELBA": "string", 
+    "ETHI": "string", 
+    "GEOK": "string", 
+    "GEOR": "string", 
+    "GLAG": "string", 
+    "GOTH": "string", 
+    "GRAN": "string", 
+    "GREK": "string", 
+    "GUJR": "string", 
+    "GURU": "string", 
+    "HANG": "string", 
+    "HANI": "string", 
+    "HANO": "string", 
+    "HANS": "string", 
+    "HANT": "string", 
+    "HEBR": "string", 
+    "HLUW": "string", 
+    "HMNG": "string", 
+    "HUNG": "string", 
+    "INDS": "string", 
+    "ITAL": "string", 
+    "JAVA": "string", 
+    "JPAN": "string", 
+    "JURC": "string", 
+    "KALI": "string", 
+    "KHAR": "string", 
+    "KHMR": "string", 
+    "KHOJ": "string", 
+    "KNDA": "string", 
+    "KPEL": "string", 
+    "KTHI": "string", 
+    "LANA": "string", 
+    "LAOO": "string", 
+    "LATF": "string", 
+    "LATG": "string", 
+    "LATN": "string", 
+    "LEPC": "string", 
+    "LIMB": "string", 
+    "LINA": "string", 
+    "LINB": "string", 
+    "LISU": "string", 
+    "LOMA": "string", 
+    "LYCI": "string", 
+    "LYDI": "string", 
+    "MAND": "string", 
+    "MANI": "string", 
+    "MAYA": "string", 
+    "MEND": "string", 
+    "MERC": "string", 
+    "MERO": "string", 
+    "MLYM": "string", 
+    "MONG": "string", 
+    "MOON": "string", 
+    "MROO": "string", 
+    "MTEI": "string", 
+    "MYMR": "string", 
+    "NARB": "string", 
+    "NBAT": "string", 
+    "NKGB": "string", 
+    "NKOO": "string", 
+    "NSHU": "string", 
+    "OGAM": "string", 
+    "OLCK": "string", 
+    "ORKH": "string", 
+    "ORYA": "string", 
+    "OSMA": "string", 
+    "PALM": "string", 
+    "PERM": "string", 
+    "PHAG": "string", 
+    "PHLI": "string", 
+    "PHLP": "string", 
+    "PHLV": "string", 
+    "PHNX": "string", 
+    "PLRD": "string", 
+    "PRTI": "string", 
+    "RJNG": "string", 
+    "RORO": "string", 
+    "RUNR": "string", 
+    "SAMR": "string", 
+    "SARA": "string", 
+    "SARB": "string", 
+    "SAUR": "string", 
+    "SGNW": "string", 
+    "SHAW": "string", 
+    "SHRD": "string", 
+    "SIND": "string", 
+    "SINH": "string", 
+    "SORA": "string", 
+    "SUND": "string", 
+    "SYLO": "string", 
+    "SYRC": "string", 
+    "SYRE": "string", 
+    "SYRJ": "string", 
+    "SYRN": "string", 
+    "TAGB": "string", 
+    "TAKR": "string", 
+    "TALE": "string", 
+    "TALU": "string", 
+    "TAML": "string", 
+    "TANG": "string", 
+    "TAVT": "string", 
+    "TELU": "string", 
+    "TENG": "string", 
+    "TFNG": "string", 
+    "TGLG": "string", 
+    "THAA": "string", 
+    "THAI": "string", 
+    "TIBT": "string", 
+    "TIRH": "string", 
+    "UGAR": "string", 
+    "VAII": "string", 
+    "VISP": "string", 
+    "WARA": "string", 
+    "WOLE": "string", 
+    "XPEO": "string", 
+    "XSUX": "string", 
+    "YIII": "string", 
+    "ZMTH": "string", 
+    "ZSYM": "string", 
+    "ZYYY": "string"
+  }, 
+  "SetIconInstanceType": {
+    "DECLARATIVE_CONTENT_SET_ICON": "string"
+  }, 
+  "ShowPageActionInstanceType": {
+    "DECLARATIVE_CONTENT_SHOW_PAGE_ACTION": "string"
+  }, 
+  "State": {
+    "COMPLETE": "string", 
+    "INTERRUPTED": "string", 
+    "IN_PROGRESS": "string"
+  }, 
+  "StorageUnitType": {
+    "FIXED": "string", 
+    "REMOVABLE": "string", 
+    "UNKNOWN": "string"
+  }, 
+  "TabCaptureState": {
+    "ACTIVE": "string", 
+    "ERROR": "string", 
+    "PENDING": "string", 
+    "STOPPED": "string"
+  }, 
+  "TabStatus": {
+    "COMPLETE": "string", 
+    "LOADING": "string"
+  }, 
+  "TargetInfoType": {
+    "BACKGROUND_PAGE": "string", 
+    "OTHER": "string", 
+    "PAGE": "string", 
+    "WORKER": "string"
+  }, 
+  "TemplateType": {
+    "BASIC": "string", 
+    "IMAGE": "string", 
+    "LIST": "string", 
+    "PROGRESS": "string"
+  }, 
+  "TransitionQualifier": {
+    "CLIENT_REDIRECT": "string", 
+    "FORWARD_BACK": "string", 
+    "FROM_ADDRESS_BAR": "string", 
+    "SERVER_REDIRECT": "string"
+  }, 
+  "TransitionType": {
+    "AUTO_BOOKMARK": "string", 
+    "AUTO_SUBFRAME": "string", 
+    "FORM_SUBMIT": "string", 
+    "GENERATED": "string", 
+    "KEYWORD": "string", 
+    "KEYWORD_GENERATED": "string", 
+    "LINK": "string", 
+    "MANUAL_SUBFRAME": "string", 
+    "RELOAD": "string", 
+    "START_PAGE": "string", 
+    "TYPED": "string"
+  }, 
+  "ViewType": {
+    "POPUP": "string", 
+    "TAB": "string"
+  }, 
+  "VoiceGender": {
+    "FEMALE": "string", 
+    "MALE": "string"
+  }, 
+  "WindowState": {
+    "DOCKED": "string", 
+    "FULLSCREEN": "string", 
+    "MAXIMIZED": "string", 
+    "MINIMIZED": "string", 
+    "NORMAL": "string"
+  }, 
+  "WindowType": {
+    "APP": "string", 
+    "DEVTOOLS": "string", 
+    "NORMAL": "string", 
+    "PANEL": "string", 
+    "POPUP": "string"
+  }, 
+  "ZoomSettingsMode": {
+    "AUTOMATIC": "string", 
+    "DISABLED": "string", 
+    "MANUAL": "string"
+  }, 
+  "ZoomSettingsScope": {
+    "PER_ORIGIN": "string", 
+    "PER_TAB": "string"
+  }, 
+  "alarms": {
+    "clear": "function", 
+    "clearAll": "function", 
+    "create": "function", 
+    "get": "function", 
+    "getAll": "function", 
+    "onAlarm": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }
+  }, 
+  "alternateErrorPagesEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "app": {
+    "getDetails": "function", 
+    "getIsInstalled": "function", 
+    "installState": "function", 
+    "isInstalled": "boolean", 
+    "runningState": "function"
+  }, 
+  "autofillEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "automaticDownloads": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "bookmarks": {
+    "BookmarkTreeNodeUnmodifiable": {
+      "MANAGED": "string"
+    }, 
+    "MAX_SUSTAINED_WRITE_OPERATIONS_PER_MINUTE": "number", 
+    "MAX_WRITE_OPERATIONS_PER_HOUR": "number", 
+    "create": "function", 
+    "get": "function", 
+    "getChildren": "function", 
+    "getRecent": "function", 
+    "getSubTree": "function", 
+    "getTree": "function", 
+    "move": "function", 
+    "onChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onChildrenReordered": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onCreated": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onImportBegan": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onImportEnded": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onMoved": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onRemoved": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "remove": "function", 
+    "removeTree": "function", 
+    "search": "function", 
+    "update": "function"
+  }, 
+  "browserAction": {
+    "disable": "function", 
+    "enable": "function", 
+    "getBadgeBackgroundColor": "function", 
+    "getBadgeText": "function", 
+    "getPopup": "function", 
+    "getTitle": "function", 
+    "onClicked": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "setBadgeBackgroundColor": "function", 
+    "setBadgeText": "function", 
+    "setIcon": "function", 
+    "setPopup": "function", 
+    "setTitle": "function"
+  }, 
+  "browsingData": {
+    "remove": "function", 
+    "removeAppcache": "function", 
+    "removeCache": "function", 
+    "removeCookies": "function", 
+    "removeDownloads": "function", 
+    "removeFileSystems": "function", 
+    "removeFormData": "function", 
+    "removeHistory": "function", 
+    "removeIndexedDB": "function", 
+    "removeLocalStorage": "function", 
+    "removePasswords": "function", 
+    "removePluginData": "function", 
+    "removeWebSQL": "function", 
+    "settings": "function"
+  }, 
+  "camera": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "clipboard": "undefined", 
+  "commands": {
+    "getAll": "function", 
+    "onCommand": {
+      "addListener": "function"
+    }
+  }, 
+  "contentSettings": {
+    "CameraContentSetting": {
+      "ALLOW": "string", 
+      "ASK": "string", 
+      "BLOCK": "string"
+    }, 
+    "CookiesContentSetting": {
+      "ALLOW": "string", 
+      "BLOCK": "string", 
+      "SESSION_ONLY": "string"
+    }, 
+    "FullscreenContentSetting": {
+      "ALLOW": "string"
+    }, 
+    "ImagesContentSetting": {
+      "ALLOW": "string", 
+      "BLOCK": "string"
+    }, 
+    "JavascriptContentSetting": {
+      "ALLOW": "string", 
+      "BLOCK": "string"
+    }, 
+    "LocationContentSetting": {
+      "ALLOW": "string", 
+      "ASK": "string", 
+      "BLOCK": "string"
+    }, 
+    "MicrophoneContentSetting": {
+      "ALLOW": "string", 
+      "ASK": "string", 
+      "BLOCK": "string"
+    }, 
+    "MouselockContentSetting": {
+      "ALLOW": "string"
+    }, 
+    "MultipleAutomaticDownloadsContentSetting": {
+      "ALLOW": "string", 
+      "ASK": "string", 
+      "BLOCK": "string"
+    }, 
+    "NotificationsContentSetting": {
+      "ALLOW": "string", 
+      "ASK": "string", 
+      "BLOCK": "string"
+    }, 
+    "PluginsContentSetting": {
+      "ALLOW": "string", 
+      "BLOCK": "string", 
+      "DETECT_IMPORTANT_CONTENT": "string"
+    }, 
+    "PopupsContentSetting": {
+      "ALLOW": "string", 
+      "BLOCK": "string"
+    }, 
+    "PpapiBrokerContentSetting": {
+      "ALLOW": "string", 
+      "ASK": "string", 
+      "BLOCK": "string"
+    }, 
+    "Scope": {
+      "INCOGNITO_SESSION_ONLY": "string", 
+      "REGULAR": "string"
+    }, 
+    "automaticDownloads": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "camera": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "cookies": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "fullscreen": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "images": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "javascript": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "location": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "microphone": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "mouselock": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "notifications": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "plugins": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "popups": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }, 
+    "unsandboxedPlugins": {
+      "clear": "function", 
+      "get": "function", 
+      "getResourceIdentifiers": "function", 
+      "set": "function"
+    }
+  }, 
+  "contextMenus": {
+    "ACTION_MENU_TOP_LEVEL_LIMIT": "number", 
+    "ContextType": {
+      "ALL": "string", 
+      "AUDIO": "string", 
+      "BROWSER_ACTION": "string", 
+      "EDITABLE": "string", 
+      "FRAME": "string", 
+      "IMAGE": "string", 
+      "LAUNCHER": "string", 
+      "LINK": "string", 
+      "PAGE": "string", 
+      "PAGE_ACTION": "string", 
+      "SELECTION": "string", 
+      "VIDEO": "string"
+    }, 
+    "ItemType": {
+      "CHECKBOX": "string", 
+      "NORMAL": "string", 
+      "RADIO": "string", 
+      "SEPARATOR": "string"
+    }, 
+    "create": "function", 
+    "onClicked": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "remove": "function", 
+    "removeAll": "function", 
+    "update": "function"
+  }, 
+  "cookies": {
+    "OnChangedCause": {
+      "EVICTED": "string", 
+      "EXPIRED": "string", 
+      "EXPIRED_OVERWRITE": "string", 
+      "EXPLICIT": "string", 
+      "OVERWRITE": "string"
+    }, 
+    "SameSiteStatus": {
+      "LAX": "string", 
+      "NO_RESTRICTION": "string", 
+      "STRICT": "string"
+    }, 
+    "get": "function", 
+    "getAll": "function", 
+    "getAllCookieStores": "function", 
+    "onChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "remove": "function", 
+    "set": "function"
+  }, 
+  "cpu": {
+    "getInfo": "function"
+  }, 
+  "csi": "function", 
+  "debugger": {
+    "DetachReason": {
+      "CANCELED_BY_USER": "string", 
+      "REPLACED_WITH_DEVTOOLS": "string", 
+      "TARGET_CLOSED": "string"
+    }, 
+    "TargetInfoType": {
+      "BACKGROUND_PAGE": "string", 
+      "OTHER": "string", 
+      "PAGE": "string", 
+      "WORKER": "string"
+    }, 
+    "attach": "function", 
+    "detach": "function", 
+    "getTargets": "function", 
+    "onDetach": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onEvent": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "sendCommand": "function"
+  }, 
+  "declarativeContent": {
+    "PageStateMatcher": "function", 
+    "PageStateMatcherInstanceType": {
+      "DECLARATIVE_CONTENT_PAGE_STATE_MATCHER": "string"
+    }, 
+    "RequestContentScript": "function", 
+    "RequestContentScriptInstanceType": {
+      "DECLARATIVE_CONTENT_REQUEST_CONTENT_SCRIPT": "string"
+    }, 
+    "SetIcon": "function", 
+    "SetIconInstanceType": {
+      "DECLARATIVE_CONTENT_SET_ICON": "string"
+    }, 
+    "ShowPageAction": "function", 
+    "ShowPageActionInstanceType": {
+      "DECLARATIVE_CONTENT_SHOW_PAGE_ACTION": "string"
+    }, 
+    "onPageChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }
+  }, 
+  "desktopCapture": {
+    "DesktopCaptureSourceType": {
+      "AUDIO": "string", 
+      "SCREEN": "string", 
+      "TAB": "string", 
+      "WINDOW": "string"
+    }, 
+    "cancelChooseDesktopMedia": "function", 
+    "chooseDesktopMedia": "function"
+  }, 
+  "display": {
+    "LayoutPosition": {
+      "BOTTOM": "string", 
+      "LEFT": "string", 
+      "RIGHT": "string", 
+      "TOP": "string"
+    }, 
+    "clearTouchCalibration": "function", 
+    "completeCustomTouchCalibration": "function", 
+    "enableUnifiedDesktop": "function", 
+    "getDisplayLayout": "function", 
+    "getInfo": "function", 
+    "onDisplayChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "overscanCalibrationAdjust": "function", 
+    "overscanCalibrationComplete": "function", 
+    "overscanCalibrationReset": "function", 
+    "overscanCalibrationStart": "function", 
+    "setDisplayLayout": "function", 
+    "setDisplayProperties": "function", 
+    "showNativeTouchCalibration": "function", 
+    "startCustomTouchCalibration": "function"
+  }, 
+  "downloads": {
+    "DangerType": {
+      "ACCEPTED": "string", 
+      "CONTENT": "string", 
+      "FILE": "string", 
+      "HOST": "string", 
+      "SAFE": "string", 
+      "UNCOMMON": "string", 
+      "UNWANTED": "string", 
+      "URL": "string"
+    }, 
+    "FilenameConflictAction": {
+      "OVERWRITE": "string", 
+      "PROMPT": "string", 
+      "UNIQUIFY": "string"
+    }, 
+    "HttpMethod": {
+      "GET": "string", 
+      "POST": "string"
+    }, 
+    "InterruptReason": {
+      "CRASH": "string", 
+      "FILE_ACCESS_DENIED": "string", 
+      "FILE_BLOCKED": "string", 
+      "FILE_FAILED": "string", 
+      "FILE_HASH_MISMATCH": "string", 
+      "FILE_NAME_TOO_LONG": "string", 
+      "FILE_NO_SPACE": "string", 
+      "FILE_SAME_AS_SOURCE": "string", 
+      "FILE_SECURITY_CHECK_FAILED": "string", 
+      "FILE_TOO_LARGE": "string", 
+      "FILE_TOO_SHORT": "string", 
+      "FILE_TRANSIENT_ERROR": "string", 
+      "FILE_VIRUS_INFECTED": "string", 
+      "NETWORK_DISCONNECTED": "string", 
+      "NETWORK_FAILED": "string", 
+      "NETWORK_INVALID_REQUEST": "string", 
+      "NETWORK_SERVER_DOWN": "string", 
+      "NETWORK_TIMEOUT": "string", 
+      "SERVER_BAD_CONTENT": "string", 
+      "SERVER_CERT_PROBLEM": "string", 
+      "SERVER_CONTENT_LENGTH_MISMATCH": "string", 
+      "SERVER_FAILED": "string", 
+      "SERVER_FORBIDDEN": "string", 
+      "SERVER_NO_RANGE": "string", 
+      "SERVER_UNAUTHORIZED": "string", 
+      "SERVER_UNREACHABLE": "string", 
+      "USER_CANCELED": "string", 
+      "USER_SHUTDOWN": "string"
+    }, 
+    "State": {
+      "COMPLETE": "string", 
+      "INTERRUPTED": "string", 
+      "IN_PROGRESS": "string"
+    }, 
+    "acceptDanger": "function", 
+    "cancel": "function", 
+    "download": "function", 
+    "drag": "function", 
+    "erase": "function", 
+    "getFileIcon": "function", 
+    "onChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onCreated": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onDeterminingFilename": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onErased": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "open": "function", 
+    "pause": "function", 
+    "removeFile": "function", 
+    "resume": "function", 
+    "search": "function", 
+    "setShelfEnabled": "function", 
+    "show": "function", 
+    "showDefaultFolder": "function"
+  }, 
+  "extension": {
+    "ViewType": {
+      "POPUP": "string", 
+      "TAB": "string"
+    }, 
+    "connect": "function", 
+    "connectNative": "function", 
+    "getBackgroundPage": "function", 
+    "getURL": "function", 
+    "getViews": "function", 
+    "inIncognitoContext": "boolean", 
+    "isAllowedFileSchemeAccess": "function", 
+    "isAllowedIncognitoAccess": "function", 
+    "onConnect": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onConnectExternal": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onMessage": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onMessageExternal": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onRequest": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onRequestExternal": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "sendMessage": "function", 
+    "sendNativeMessage": "function", 
+    "sendRequest": "function", 
+    "setUpdateUrlData": "function"
+  }, 
+  "fontSettings": {
+    "GenericFamily": {
+      "CURSIVE": "string", 
+      "FANTASY": "string", 
+      "FIXED": "string", 
+      "SANSSERIF": "string", 
+      "SERIF": "string", 
+      "STANDARD": "string"
+    }, 
+    "LevelOfControl": {
+      "CONTROLLABLE_BY_THIS_EXTENSION": "string", 
+      "CONTROLLED_BY_OTHER_EXTENSIONS": "string", 
+      "CONTROLLED_BY_THIS_EXTENSION": "string", 
+      "NOT_CONTROLLABLE": "string"
+    }, 
+    "ScriptCode": {
+      "AFAK": "string", 
+      "ARAB": "string", 
+      "ARMI": "string", 
+      "ARMN": "string", 
+      "AVST": "string", 
+      "BALI": "string", 
+      "BAMU": "string", 
+      "BASS": "string", 
+      "BATK": "string", 
+      "BENG": "string", 
+      "BLIS": "string", 
+      "BOPO": "string", 
+      "BRAH": "string", 
+      "BRAI": "string", 
+      "BUGI": "string", 
+      "BUHD": "string", 
+      "CAKM": "string", 
+      "CANS": "string", 
+      "CARI": "string", 
+      "CHAM": "string", 
+      "CHER": "string", 
+      "CIRT": "string", 
+      "COPT": "string", 
+      "CPRT": "string", 
+      "CYRL": "string", 
+      "CYRS": "string", 
+      "DEVA": "string", 
+      "DSRT": "string", 
+      "DUPL": "string", 
+      "EGYD": "string", 
+      "EGYH": "string", 
+      "EGYP": "string", 
+      "ELBA": "string", 
+      "ETHI": "string", 
+      "GEOK": "string", 
+      "GEOR": "string", 
+      "GLAG": "string", 
+      "GOTH": "string", 
+      "GRAN": "string", 
+      "GREK": "string", 
+      "GUJR": "string", 
+      "GURU": "string", 
+      "HANG": "string", 
+      "HANI": "string", 
+      "HANO": "string", 
+      "HANS": "string", 
+      "HANT": "string", 
+      "HEBR": "string", 
+      "HLUW": "string", 
+      "HMNG": "string", 
+      "HUNG": "string", 
+      "INDS": "string", 
+      "ITAL": "string", 
+      "JAVA": "string", 
+      "JPAN": "string", 
+      "JURC": "string", 
+      "KALI": "string", 
+      "KHAR": "string", 
+      "KHMR": "string", 
+      "KHOJ": "string", 
+      "KNDA": "string", 
+      "KPEL": "string", 
+      "KTHI": "string", 
+      "LANA": "string", 
+      "LAOO": "string", 
+      "LATF": "string", 
+      "LATG": "string", 
+      "LATN": "string", 
+      "LEPC": "string", 
+      "LIMB": "string", 
+      "LINA": "string", 
+      "LINB": "string", 
+      "LISU": "string", 
+      "LOMA": "string", 
+      "LYCI": "string", 
+      "LYDI": "string", 
+      "MAND": "string", 
+      "MANI": "string", 
+      "MAYA": "string", 
+      "MEND": "string", 
+      "MERC": "string", 
+      "MERO": "string", 
+      "MLYM": "string", 
+      "MONG": "string", 
+      "MOON": "string", 
+      "MROO": "string", 
+      "MTEI": "string", 
+      "MYMR": "string", 
+      "NARB": "string", 
+      "NBAT": "string", 
+      "NKGB": "string", 
+      "NKOO": "string", 
+      "NSHU": "string", 
+      "OGAM": "string", 
+      "OLCK": "string", 
+      "ORKH": "string", 
+      "ORYA": "string", 
+      "OSMA": "string", 
+      "PALM": "string", 
+      "PERM": "string", 
+      "PHAG": "string", 
+      "PHLI": "string", 
+      "PHLP": "string", 
+      "PHLV": "string", 
+      "PHNX": "string", 
+      "PLRD": "string", 
+      "PRTI": "string", 
+      "RJNG": "string", 
+      "RORO": "string", 
+      "RUNR": "string", 
+      "SAMR": "string", 
+      "SARA": "string", 
+      "SARB": "string", 
+      "SAUR": "string", 
+      "SGNW": "string", 
+      "SHAW": "string", 
+      "SHRD": "string", 
+      "SIND": "string", 
+      "SINH": "string", 
+      "SORA": "string", 
+      "SUND": "string", 
+      "SYLO": "string", 
+      "SYRC": "string", 
+      "SYRE": "string", 
+      "SYRJ": "string", 
+      "SYRN": "string", 
+      "TAGB": "string", 
+      "TAKR": "string", 
+      "TALE": "string", 
+      "TALU": "string", 
+      "TAML": "string", 
+      "TANG": "string", 
+      "TAVT": "string", 
+      "TELU": "string", 
+      "TENG": "string", 
+      "TFNG": "string", 
+      "TGLG": "string", 
+      "THAA": "string", 
+      "THAI": "string", 
+      "TIBT": "string", 
+      "TIRH": "string", 
+      "UGAR": "string", 
+      "VAII": "string", 
+      "VISP": "string", 
+      "WARA": "string", 
+      "WOLE": "string", 
+      "XPEO": "string", 
+      "XSUX": "string", 
+      "YIII": "string", 
+      "ZMTH": "string", 
+      "ZSYM": "string", 
+      "ZYYY": "string"
+    }, 
+    "clearDefaultFixedFontSize": "function", 
+    "clearDefaultFontSize": "function", 
+    "clearFont": "function", 
+    "clearMinimumFontSize": "function", 
+    "getDefaultFixedFontSize": "function", 
+    "getDefaultFontSize": "function", 
+    "getFont": "function", 
+    "getFontList": "function", 
+    "getMinimumFontSize": "function", 
+    "onDefaultFixedFontSizeChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onDefaultFontSizeChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onFontChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onMinimumFontSizeChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "setDefaultFixedFontSize": "function", 
+    "setDefaultFontSize": "function", 
+    "setFont": "function", 
+    "setMinimumFontSize": "function"
+  }, 
+  "fullscreen": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "gcm": {
+    "MAX_MESSAGE_SIZE": "number", 
+    "onMessage": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onMessagesDeleted": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onSendError": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "register": "function", 
+    "send": "function", 
+    "unregister": "function"
+  }, 
+  "history": {
+    "TransitionType": {
+      "AUTO_BOOKMARK": "string", 
+      "AUTO_SUBFRAME": "string", 
+      "AUTO_TOPLEVEL": "string", 
+      "FORM_SUBMIT": "string", 
+      "GENERATED": "string", 
+      "KEYWORD": "string", 
+      "KEYWORD_GENERATED": "string", 
+      "LINK": "string", 
+      "MANUAL_SUBFRAME": "string", 
+      "RELOAD": "string", 
+      "TYPED": "string"
+    }, 
+    "addUrl": "function", 
+    "deleteAll": "function", 
+    "deleteRange": "function", 
+    "deleteUrl": "function", 
+    "getVisits": "function", 
+    "onVisitRemoved": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onVisited": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "search": "function"
+  }, 
+  "hotwordSearchEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "hyperlinkAuditingEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "i18n": {
+    "detectLanguage": "function", 
+    "getAcceptLanguages": "function", 
+    "getMessage": "function", 
+    "getUILanguage": "function"
+  }, 
+  "identity": {
+    "getAuthToken": "function", 
+    "getProfileUserInfo": "function", 
+    "getRedirectURL": "function", 
+    "launchWebAuthFlow": "function", 
+    "onSignInChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "removeCachedAuthToken": "function"
+  }, 
+  "idle": {
+    "IdleState": {
+      "ACTIVE": "string", 
+      "IDLE": "string", 
+      "LOCKED": "string"
+    }, 
+    "onStateChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "queryState": "function", 
+    "setDetectionInterval": "function"
+  }, 
+  "images": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "instanceID": {
+    "deleteID": "function", 
+    "deleteToken": "function", 
+    "getCreationTime": "function", 
+    "getID": "function", 
+    "getToken": "function", 
+    "onTokenRefresh": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }
+  }, 
+  "javascript": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "loadTimes": "function", 
+  "local": {
+    "QUOTA_BYTES": "number", 
+    "clear": "function", 
+    "get": "function", 
+    "getBytesInUse": "function", 
+    "remove": "function", 
+    "set": "function"
+  }, 
+  "location": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "managed": {
+    "clear": "function", 
+    "get": "function", 
+    "getBytesInUse": "function", 
+    "remove": "function", 
+    "set": "function"
+  }, 
+  "management": {
+    "ExtensionDisabledReason": {
+      "PERMISSIONS_INCREASE": "string", 
+      "UNKNOWN": "string"
+    }, 
+    "ExtensionInstallType": {
+      "ADMIN": "string", 
+      "DEVELOPMENT": "string", 
+      "NORMAL": "string", 
+      "OTHER": "string", 
+      "SIDELOAD": "string"
+    }, 
+    "ExtensionType": {
+      "EXTENSION": "string", 
+      "HOSTED_APP": "string", 
+      "LEGACY_PACKAGED_APP": "string", 
+      "PACKAGED_APP": "string", 
+      "THEME": "string"
+    }, 
+    "LaunchType": {
+      "OPEN_AS_PINNED_TAB": "string", 
+      "OPEN_AS_REGULAR_TAB": "string", 
+      "OPEN_AS_WINDOW": "string", 
+      "OPEN_FULL_SCREEN": "string"
+    }, 
+    "createAppShortcut": "function", 
+    "generateAppForLink": "function", 
+    "get": "function", 
+    "getAll": "function", 
+    "getPermissionWarningsById": "function", 
+    "getPermissionWarningsByManifest": "function", 
+    "getSelf": "function", 
+    "launchApp": "function", 
+    "onDisabled": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onEnabled": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onInstalled": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onUninstalled": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "setEnabled": "function", 
+    "setLaunchType": "function", 
+    "uninstall": "function", 
+    "uninstallSelf": "function"
+  }, 
+  "memory": {
+    "getInfo": "function"
+  }, 
+  "microphone": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "mouselock": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "network": {
+    "networkPredictionEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "webRTCIPHandlingPolicy": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "webRTCMultipleRoutesEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "webRTCNonProxiedUdpEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }
+  }, 
+  "networkPredictionEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "notifications": {
+    "PermissionLevel": {
+      "DENIED": "string", 
+      "GRANTED": "string"
+    }, 
+    "TemplateType": {
+      "BASIC": "string", 
+      "IMAGE": "string", 
+      "LIST": "string", 
+      "PROGRESS": "string"
+    }, 
+    "clear": "function", 
+    "create": "function", 
+    "getAll": "function", 
+    "getPermissionLevel": "function", 
+    "onButtonClicked": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onClicked": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onClosed": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onPermissionLevelChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onShowSettings": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "update": "function"
+  }, 
+  "onActivated": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onActiveChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onAdded": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onAlarm": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onAttached": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onAuthRequired": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onBeforeNavigate": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onBeforeRedirect": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onBeforeRequest": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onBeforeSendHeaders": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onBrowserUpdateAvailable": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onButtonClicked": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onChange": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onChildrenReordered": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onClicked": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onClosed": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onCommitted": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onCompleted": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onConnect": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onConnectExternal": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onCreated": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onCreatedNavigationTarget": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onDOMContentLoaded": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onDefaultFixedFontSizeChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onDefaultFontSizeChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onDetach": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onDetached": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onDeterminingFilename": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onDisabled": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onDisplayChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onEnabled": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onErased": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onErrorOccurred": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onEvent": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onFocusChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onFontChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onGetCapabilityRequested": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onGetPrintersRequested": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onGetUsbPrinterInfoRequested": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onHeadersReceived": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onHighlightChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onHighlighted": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onHistoryStateUpdated": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onImportBegan": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onImportEnded": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onInstalled": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onMessage": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onMessageExternal": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onMessagesDeleted": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onMinimumFontSizeChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onMoved": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onPageChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onPause": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onPermissionLevelChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onPrintRequested": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onProxyError": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onReferenceFragmentUpdated": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onRemoved": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onReplaced": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onRequest": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onRequestExternal": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onResponseStarted": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onRestartRequired": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onResume": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onSelectionChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onSendError": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onSendHeaders": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onShowSettings": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onSignInChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onSpeak": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onStartup": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onStateChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onStatusChanged": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onStop": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onSuspend": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onSuspendCanceled": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onTabReplaced": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onTokenRefresh": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onUninstalled": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onUpdateAvailable": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onUpdated": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onVisitRemoved": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onVisited": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "onZoomChange": {
+    "prototype": {
+      "addListener": "function", 
+      "addRules": "function", 
+      "constructor": "function", 
+      "dispatch": "function", 
+      "dispatchToListener": "function", 
+      "getRules": "function", 
+      "hasListener": "function", 
+      "hasListeners": "function", 
+      "removeListener": "function", 
+      "removeRules": "function"
+    }
+  }, 
+  "pageCapture": {
+    "saveAsMHTML": "function"
+  }, 
+  "passwordSavingEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "permissions": {
+    "contains": "function", 
+    "getAll": "function", 
+    "onAdded": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onRemoved": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "remove": "function", 
+    "request": "function"
+  }, 
+  "plugins": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "popups": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "power": {
+    "Level": {
+      "DISPLAY": "string", 
+      "SYSTEM": "string"
+    }, 
+    "releaseKeepAwake": "function", 
+    "requestKeepAwake": "function"
+  }, 
+  "printerProvider": {
+    "PrintError": {
+      "FAILED": "string", 
+      "INVALID_DATA": "string", 
+      "INVALID_TICKET": "string", 
+      "OK": "string"
+    }, 
+    "onGetCapabilityRequested": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onGetPrintersRequested": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onGetUsbPrinterInfoRequested": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onPrintRequested": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }
+  }, 
+  "privacy": {
+    "IPHandlingPolicy": {
+      "DEFAULT": "string", 
+      "DEFAULT_PUBLIC_AND_PRIVATE_INTERFACES": "string", 
+      "DEFAULT_PUBLIC_INTERFACE_ONLY": "string", 
+      "DISABLE_NON_PROXIED_UDP": "string"
+    }, 
+    "network": {
+      "networkPredictionEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "webRTCIPHandlingPolicy": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "webRTCMultipleRoutesEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "webRTCNonProxiedUdpEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }
+    }, 
+    "services": {
+      "alternateErrorPagesEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "autofillEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "hotwordSearchEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "passwordSavingEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "safeBrowsingEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "safeBrowsingExtendedReportingEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "searchSuggestEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "spellingServiceEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "translationServiceEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }
+    }, 
+    "websites": {
+      "hyperlinkAuditingEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "protectedContentEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "referrersEnabled": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }, 
+      "thirdPartyCookiesAllowed": {
+        "clear": "function", 
+        "get": "function", 
+        "onChange": {
+          "prototype": {
+            "addListener": "function", 
+            "addRules": "function", 
+            "constructor": "function", 
+            "dispatch": "function", 
+            "dispatchToListener": "function", 
+            "getRules": "function", 
+            "hasListener": "function", 
+            "hasListeners": "function", 
+            "removeListener": "function", 
+            "removeRules": "function"
+          }
+        }, 
+        "set": "function"
+      }
+    }
+  }, 
+  "protectedContentEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "proxy": {
+    "Mode": {
+      "AUTO_DETECT": "string", 
+      "DIRECT": "string", 
+      "FIXED_SERVERS": "string", 
+      "PAC_SCRIPT": "string", 
+      "SYSTEM": "string"
+    }, 
+    "Scheme": {
+      "HTTP": "string", 
+      "HTTPS": "string", 
+      "QUIC": "string", 
+      "SOCKS4": "string", 
+      "SOCKS5": "string"
+    }, 
+    "onProxyError": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "settings": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }
+  }, 
+  "referrersEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "runtime": {
+    "OnInstalledReason": {
+      "CHROME_UPDATE": "string", 
+      "INSTALL": "string", 
+      "SHARED_MODULE_UPDATE": "string", 
+      "UPDATE": "string"
+    }, 
+    "OnRestartRequiredReason": {
+      "APP_UPDATE": "string", 
+      "OS_UPDATE": "string", 
+      "PERIODIC": "string"
+    }, 
+    "PlatformArch": {
+      "ARM": "string", 
+      "X86_32": "string", 
+      "X86_64": "string"
+    }, 
+    "PlatformNaclArch": {
+      "ARM": "string", 
+      "X86_32": "string", 
+      "X86_64": "string"
+    }, 
+    "PlatformOs": {
+      "ANDROID": "string", 
+      "CROS": "string", 
+      "LINUX": "string", 
+      "MAC": "string", 
+      "OPENBSD": "string", 
+      "WIN": "string"
+    }, 
+    "RequestUpdateCheckStatus": {
+      "NO_UPDATE": "string", 
+      "THROTTLED": "string", 
+      "UPDATE_AVAILABLE": "string"
+    }, 
+    "connect": "function", 
+    "connectNative": "function", 
+    "getBackgroundPage": "function", 
+    "getManifest": "function", 
+    "getPackageDirectoryEntry": "function", 
+    "getPlatformInfo": "function", 
+    "getURL": "function", 
+    "id": "string", 
+    "onBrowserUpdateAvailable": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onConnect": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onConnectExternal": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onInstalled": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onMessage": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onMessageExternal": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onRestartRequired": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onStartup": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onSuspend": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onSuspendCanceled": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onUpdateAvailable": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "openOptionsPage": "function", 
+    "reload": "function", 
+    "requestUpdateCheck": "function", 
+    "restart": "function", 
+    "restartAfterDelay": "function", 
+    "sendMessage": "function", 
+    "sendNativeMessage": "function", 
+    "setUninstallURL": "function"
+  }, 
+  "safeBrowsingEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "safeBrowsingExtendedReportingEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "searchSuggestEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "services": {
+    "alternateErrorPagesEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "autofillEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "hotwordSearchEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "passwordSavingEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "safeBrowsingEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "safeBrowsingExtendedReportingEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "searchSuggestEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "spellingServiceEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "translationServiceEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }
+  }, 
+  "sessions": {
+    "MAX_SESSION_RESULTS": "number", 
+    "getDevices": "function", 
+    "getRecentlyClosed": "function", 
+    "onChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "restore": "function"
+  }, 
+  "settings": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "spellingServiceEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "storage": {
+    "EjectDeviceResultCode": {
+      "FAILURE": "string", 
+      "IN_USE": "string", 
+      "NO_SUCH_DEVICE": "string", 
+      "SUCCESS": "string"
+    }, 
+    "StorageUnitType": {
+      "FIXED": "string", 
+      "REMOVABLE": "string", 
+      "UNKNOWN": "string"
+    }, 
+    "ejectDevice": "function", 
+    "getInfo": "function", 
+    "local": {
+      "QUOTA_BYTES": "number", 
+      "clear": "function", 
+      "get": "function", 
+      "getBytesInUse": "function", 
+      "remove": "function", 
+      "set": "function"
+    }, 
+    "managed": {
+      "clear": "function", 
+      "get": "function", 
+      "getBytesInUse": "function", 
+      "remove": "function", 
+      "set": "function"
+    }, 
+    "onAttached": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onDetached": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "sync": {
+      "MAX_ITEMS": "number", 
+      "MAX_SUSTAINED_WRITE_OPERATIONS_PER_MINUTE": "number", 
+      "MAX_WRITE_OPERATIONS_PER_HOUR": "number", 
+      "MAX_WRITE_OPERATIONS_PER_MINUTE": "number", 
+      "QUOTA_BYTES": "number", 
+      "QUOTA_BYTES_PER_ITEM": "number", 
+      "clear": "function", 
+      "get": "function", 
+      "getBytesInUse": "function", 
+      "remove": "function", 
+      "set": "function"
+    }
+  }, 
+  "sync": {
+    "MAX_ITEMS": "number", 
+    "MAX_SUSTAINED_WRITE_OPERATIONS_PER_MINUTE": "number", 
+    "MAX_WRITE_OPERATIONS_PER_HOUR": "number", 
+    "MAX_WRITE_OPERATIONS_PER_MINUTE": "number", 
+    "QUOTA_BYTES": "number", 
+    "QUOTA_BYTES_PER_ITEM": "number", 
+    "clear": "function", 
+    "get": "function", 
+    "getBytesInUse": "function", 
+    "remove": "function", 
+    "set": "function"
+  }, 
+  "system": {
+    "cpu": {
+      "getInfo": "function"
+    }, 
+    "display": {
+      "LayoutPosition": {
+        "BOTTOM": "string", 
+        "LEFT": "string", 
+        "RIGHT": "string", 
+        "TOP": "string"
+      }, 
+      "clearTouchCalibration": "function", 
+      "completeCustomTouchCalibration": "function", 
+      "enableUnifiedDesktop": "function", 
+      "getDisplayLayout": "function", 
+      "getInfo": "function", 
+      "onDisplayChanged": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "overscanCalibrationAdjust": "function", 
+      "overscanCalibrationComplete": "function", 
+      "overscanCalibrationReset": "function", 
+      "overscanCalibrationStart": "function", 
+      "setDisplayLayout": "function", 
+      "setDisplayProperties": "function", 
+      "showNativeTouchCalibration": "function", 
+      "startCustomTouchCalibration": "function"
+    }, 
+    "memory": {
+      "getInfo": "function"
+    }, 
+    "storage": {
+      "EjectDeviceResultCode": {
+        "FAILURE": "string", 
+        "IN_USE": "string", 
+        "NO_SUCH_DEVICE": "string", 
+        "SUCCESS": "string"
+      }, 
+      "StorageUnitType": {
+        "FIXED": "string", 
+        "REMOVABLE": "string", 
+        "UNKNOWN": "string"
+      }, 
+      "ejectDevice": "function", 
+      "getInfo": "function", 
+      "onAttached": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "onDetached": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }
+    }
+  }, 
+  "tabCapture": {
+    "TabCaptureState": {
+      "ACTIVE": "string", 
+      "ERROR": "string", 
+      "PENDING": "string", 
+      "STOPPED": "string"
+    }, 
+    "capture": "function", 
+    "captureOffscreenTab": "function", 
+    "getCapturedTabs": "function", 
+    "onStatusChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }
+  }, 
+  "tabs": {
+    "MutedInfoReason": {
+      "CAPTURE": "string", 
+      "EXTENSION": "string", 
+      "USER": "string"
+    }, 
+    "TAB_ID_NONE": "number", 
+    "TabStatus": {
+      "COMPLETE": "string", 
+      "LOADING": "string"
+    }, 
+    "WindowType": {
+      "APP": "string", 
+      "DEVTOOLS": "string", 
+      "NORMAL": "string", 
+      "PANEL": "string", 
+      "POPUP": "string"
+    }, 
+    "ZoomSettingsMode": {
+      "AUTOMATIC": "string", 
+      "DISABLED": "string", 
+      "MANUAL": "string"
+    }, 
+    "ZoomSettingsScope": {
+      "PER_ORIGIN": "string", 
+      "PER_TAB": "string"
+    }, 
+    "captureVisibleTab": "function", 
+    "connect": "function", 
+    "create": "function", 
+    "detectLanguage": "function", 
+    "discard": "function", 
+    "duplicate": "function", 
+    "executeScript": "function", 
+    "get": "function", 
+    "getAllInWindow": "function", 
+    "getCurrent": "function", 
+    "getSelected": "function", 
+    "getZoom": "function", 
+    "getZoomSettings": "function", 
+    "highlight": "function", 
+    "insertCSS": "function", 
+    "move": "function", 
+    "onActivated": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onActiveChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onAttached": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onCreated": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onDetached": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onHighlightChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onHighlighted": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onMoved": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onRemoved": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onReplaced": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onSelectionChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onUpdated": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onZoomChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "query": "function", 
+    "reload": "function", 
+    "remove": "function", 
+    "sendMessage": "function", 
+    "sendRequest": "function", 
+    "setZoom": "function", 
+    "setZoomSettings": "function", 
+    "update": "function"
+  }, 
+  "thirdPartyCookiesAllowed": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "topSites": {
+    "get": "function"
+  }, 
+  "translationServiceEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "tts": {
+    "EventType": {
+      "CANCELLED": "string", 
+      "END": "string", 
+      "ERROR": "string", 
+      "INTERRUPTED": "string", 
+      "MARKER": "string", 
+      "PAUSE": "string", 
+      "RESUME": "string", 
+      "SENTENCE": "string", 
+      "START": "string", 
+      "WORD": "string"
+    }, 
+    "VoiceGender": {
+      "FEMALE": "string", 
+      "MALE": "string"
+    }, 
+    "getVoices": "function", 
+    "isSpeaking": "function", 
+    "onEvent": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "pause": "function", 
+    "resume": "function", 
+    "speak": "function", 
+    "stop": "function"
+  }, 
+  "ttsEngine": {
+    "VoiceGender": {
+      "FEMALE": "string", 
+      "MALE": "string"
+    }, 
+    "onPause": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onResume": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onSpeak": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onStop": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "sendTtsEvent": "function"
+  }, 
+  "unsandboxedPlugins": {
+    "clear": "function", 
+    "get": "function", 
+    "getResourceIdentifiers": "function", 
+    "set": "function"
+  }, 
+  "webNavigation": {
+    "TransitionQualifier": {
+      "CLIENT_REDIRECT": "string", 
+      "FORWARD_BACK": "string", 
+      "FROM_ADDRESS_BAR": "string", 
+      "SERVER_REDIRECT": "string"
+    }, 
+    "TransitionType": {
+      "AUTO_BOOKMARK": "string", 
+      "AUTO_SUBFRAME": "string", 
+      "FORM_SUBMIT": "string", 
+      "GENERATED": "string", 
+      "KEYWORD": "string", 
+      "KEYWORD_GENERATED": "string", 
+      "LINK": "string", 
+      "MANUAL_SUBFRAME": "string", 
+      "RELOAD": "string", 
+      "START_PAGE": "string", 
+      "TYPED": "string"
+    }, 
+    "getAllFrames": "function", 
+    "getFrame": "function", 
+    "onBeforeNavigate": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onCommitted": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onCompleted": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onCreatedNavigationTarget": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onDOMContentLoaded": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onErrorOccurred": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onHistoryStateUpdated": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onReferenceFragmentUpdated": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onTabReplaced": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }
+  }, 
+  "webRTCIPHandlingPolicy": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "webRTCMultipleRoutesEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "webRTCNonProxiedUdpEnabled": {
+    "clear": "function", 
+    "get": "function", 
+    "onChange": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "set": "function"
+  }, 
+  "webRequest": {
+    "MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES": "number", 
+    "OnAuthRequiredOptions": {
+      "ASYNC_BLOCKING": "string", 
+      "BLOCKING": "string", 
+      "RESPONSE_HEADERS": "string"
+    }, 
+    "OnBeforeRedirectOptions": {
+      "RESPONSE_HEADERS": "string"
+    }, 
+    "OnBeforeRequestOptions": {
+      "BLOCKING": "string", 
+      "REQUEST_BODY": "string"
+    }, 
+    "OnBeforeSendHeadersOptions": {
+      "BLOCKING": "string", 
+      "REQUEST_HEADERS": "string"
+    }, 
+    "OnCompletedOptions": {
+      "RESPONSE_HEADERS": "string"
+    }, 
+    "OnHeadersReceivedOptions": {
+      "BLOCKING": "string", 
+      "RESPONSE_HEADERS": "string"
+    }, 
+    "OnResponseStartedOptions": {
+      "RESPONSE_HEADERS": "string"
+    }, 
+    "OnSendHeadersOptions": {
+      "REQUEST_HEADERS": "string"
+    }, 
+    "ResourceType": {
+      "CSP_REPORT": "string", 
+      "FONT": "string", 
+      "IMAGE": "string", 
+      "MAIN_FRAME": "string", 
+      "MEDIA": "string", 
+      "OBJECT": "string", 
+      "OTHER": "string", 
+      "PING": "string", 
+      "SCRIPT": "string", 
+      "STYLESHEET": "string", 
+      "SUB_FRAME": "string", 
+      "WEBSOCKET": "string", 
+      "XMLHTTPREQUEST": "string"
+    }, 
+    "handlerBehaviorChanged": "function", 
+    "onAuthRequired": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onBeforeRedirect": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onBeforeRequest": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onBeforeSendHeaders": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onCompleted": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onErrorOccurred": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onHeadersReceived": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onResponseStarted": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onSendHeaders": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }
+  }, 
+  "websites": {
+    "hyperlinkAuditingEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "protectedContentEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "referrersEnabled": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }, 
+    "thirdPartyCookiesAllowed": {
+      "clear": "function", 
+      "get": "function", 
+      "onChange": {
+        "prototype": {
+          "addListener": "function", 
+          "addRules": "function", 
+          "constructor": "function", 
+          "dispatch": "function", 
+          "dispatchToListener": "function", 
+          "getRules": "function", 
+          "hasListener": "function", 
+          "hasListeners": "function", 
+          "removeListener": "function", 
+          "removeRules": "function"
+        }
+      }, 
+      "set": "function"
+    }
+  }, 
+  "windows": {
+    "CreateType": {
+      "NORMAL": "string", 
+      "PANEL": "string", 
+      "POPUP": "string"
+    }, 
+    "WINDOW_ID_CURRENT": "number", 
+    "WINDOW_ID_NONE": "number", 
+    "WindowState": {
+      "DOCKED": "string", 
+      "FULLSCREEN": "string", 
+      "MAXIMIZED": "string", 
+      "MINIMIZED": "string", 
+      "NORMAL": "string"
+    }, 
+    "WindowType": {
+      "APP": "string", 
+      "DEVTOOLS": "string", 
+      "NORMAL": "string", 
+      "PANEL": "string", 
+      "POPUP": "string"
+    }, 
+    "create": "function", 
+    "get": "function", 
+    "getAll": "function", 
+    "getCurrent": "function", 
+    "getLastFocused": "function", 
+    "onCreated": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onFocusChanged": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "onRemoved": {
+      "prototype": {
+        "addListener": "function", 
+        "addRules": "function", 
+        "constructor": "function", 
+        "dispatch": "function", 
+        "dispatchToListener": "function", 
+        "getRules": "function", 
+        "hasListener": "function", 
+        "hasListeners": "function", 
+        "removeListener": "function", 
+        "removeRules": "function"
+      }
+    }, 
+    "remove": "function", 
+    "update": "function"
+  }
+}

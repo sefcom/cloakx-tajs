@@ -1,0 +1,71 @@
+<horizontal-split-pane [primary-component-initialratio]="0.9"
+                       (on-ended-resizing)="refresh()"
+                       [secondary-component-minsize]="100"
+                       [primary-component-minsize]="100"
+                       [local-storage-key]="storagePrefix + '.FileView1'">
+  <div class="split-pane-content-primary h-100 component overflow-auto">
+    <div class="hw-100">
+      <vertical-split-pane [primary-component-initialratio]="0.15"
+                           [secondary-component-minsize]="100"
+                           [primary-component-minsize]="100"
+                           [local-storage-key]="storagePrefix + '.FileView2'">
+        <div class="split-pane-content-primary h-100 overflow-auto">
+          <div class="hw-100">
+            <h4>Files</h4>
+            <div class="form-group">
+              <input type="text" class="form-control" id="file-search" placeholder="Search files"
+                     [(ngModel)]="filterQuery">
+            </div>
+            <div id="file-list">
+              <ul class="list-group">
+                <li *ngFor="let file of (files | dataFilter: filterQuery:'name')"
+                    title="{{ file.name }} ({{file.id}})"
+                    (click)="uiStateStore.changeFile(file)"
+                    [class.selected]="file.id === currentFile"
+                    class="list-group-item">
+                  <span class="overflow-ellipsis"><span class="glyphicon glyphicon-file"></span> {{ file.name }} ({{file.id}})</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="split-pane-content-secondary h-100">
+
+          <vertical-split-pane [primary-component-initialratio]="0.6"
+                               [secondary-component-minsize]="100"
+                               [primary-component-minsize]="100"
+                               [local-storage-key]="storagePrefix + '.FileView3'">
+            <div class="split-pane-content-primary h-100 overflow-auto " style="padding-right: 5px;">
+              <app-file-editor></app-file-editor>
+            </div>
+            <div class="split-pane-content-secondary height-inherit" style="overflow: hidden">
+              <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#jump">Jumping</a></li>
+                <li><a data-toggle="tab" href="#call">Call hierarchy</a></li>
+                <li><a data-toggle="tab" href="#related">Related locations</a></li>
+              </ul>
+
+              <div class="tab-content height-inherit overflow-auto" style="padding-bottom: 20px">
+                <div id="jump" class="tab-pane in active">
+                  <app-file-message-search></app-file-message-search>
+                  <app-jump></app-jump>
+                </div>
+                <div id="call" class="tab-pane height-inherit" style="overflow: hidden">
+                  <app-call-hierarchy [resolver]="_this"></app-call-hierarchy>
+                </div>
+                <div id="related" class="tab-pane height-inherit" style="overflow: hidden">
+                  <app-related-locations [resolver]="_this"></app-related-locations>
+                </div>
+              </div>
+            </div>
+          </vertical-split-pane>
+        </div>
+      </vertical-split-pane>
+    </div>
+  </div>
+  <div class="split-pane-content-secondary h-100 component overflow-auto">
+    <div class="lower">
+      <app-line-values></app-line-values>
+    </div>
+  </div>
+</horizontal-split-pane>

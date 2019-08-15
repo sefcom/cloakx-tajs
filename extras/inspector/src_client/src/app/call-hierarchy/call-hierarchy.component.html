@@ -1,0 +1,28 @@
+<div style="padding: 0 0 40px 0; height: inherit">
+  <h4>Call hierarchy
+    <small>@ {{currentPosition?.line + 1}}:{{currentPosition?.ch}}</small>
+    <button class="btn btn-default btn-sm"
+            (click)="drill()"
+            title="Show call hierarchy on current line (CTRL + M)">
+      <i class="glyphicon glyphicon-screenshot"></i>
+    </button>
+  </h4>
+
+  <i *ngIf="nodes.length === 0">No enclosing function at selected line.</i>
+  <div class="tree-wrapper" *ngIf="nodes.length > 0">
+    <tree-root
+      [nodes]="nodes"
+      [options]="treeOptions">
+      <ng-template #treeNodeTemplate let-node let-index="index">
+        <span class="code">{{resolver.resolve(node.data.range.lineStart)}}</span>
+        <span class="text-muted">
+        @ {{node.data.range.lineStart}}:{{node.data.range.columnStart}}"
+      </span>
+        <span class="glyphicon glyphicon-share-alt text-primary baseline"
+              title="jump to location"
+              (click)="jumpTo(node.data.fileID, node.data.range.lineStart, node.data.context)">
+      </span>
+      </ng-template>
+    </tree-root>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+.dropdown-toggle {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.btn-group, .btn {
+  height: 39px;
+}
+.controls {
+  height: 20px;
+}
+
+.list-group-item {
+  padding: 5px 10px 5px 10px;
+}
+
+
+* {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}

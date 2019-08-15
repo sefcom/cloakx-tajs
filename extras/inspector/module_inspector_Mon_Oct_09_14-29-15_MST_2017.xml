@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_inspector" default="compile.module.inspector">
+  <dirname property="module.inspector.basedir" file="${ant.file.module_inspector}"/>
+  
+  <property name="module.jdk.home.inspector" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.inspector" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.inspector" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.inspector" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="inspector.output.dir" value="${module.inspector.basedir}/../../build/production/inspector"/>
+  <property name="inspector.testoutput.dir" value="${module.inspector.basedir}/../../build/test/inspector"/>
+  
+  <path id="inspector.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="inspector.module.production.classpath">
+    <path refid="${module.jdk.classpath.inspector}"/>
+    <fileset dir="${basedir}/extras/inspector/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+  
+  <path id="inspector.runtime.production.module.classpath">
+    <pathelement location="${inspector.output.dir}"/>
+    <fileset dir="${basedir}/extras/inspector/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+  
+  <path id="inspector.module.classpath">
+    <path refid="${module.jdk.classpath.inspector}"/>
+    <pathelement location="${inspector.output.dir}"/>
+    <fileset dir="${basedir}/extras/inspector/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+  
+  <path id="inspector.runtime.module.classpath">
+    <pathelement location="${inspector.testoutput.dir}"/>
+    <pathelement location="${inspector.output.dir}"/>
+    <fileset dir="${basedir}/extras/inspector/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.inspector">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.inspector">
+    <patternset refid="excluded.from.module.inspector"/>
+  </patternset>
+  
+  <path id="inspector.module.sourcepath">
+    <dirset dir="${module.inspector.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.inspector" depends="compile.module.inspector.production,compile.module.inspector.tests" description="Compile module inspector"/>
+  
+  <target name="compile.module.inspector.production" depends="register.custom.compilers" description="Compile module inspector; production classes">
+    <mkdir dir="${inspector.output.dir}"/>
+    <javac2 destdir="${inspector.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.inspector}/javac">
+      <compilerarg line="${compiler.args.inspector}"/>
+      <bootclasspath refid="inspector.module.bootclasspath"/>
+      <classpath refid="inspector.module.production.classpath"/>
+      <src refid="inspector.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.inspector"/>
+    </javac2>
+    
+    <copy todir="${inspector.output.dir}">
+      <fileset dir="${module.inspector.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.inspector.tests" depends="register.custom.compilers,compile.module.inspector.production" description="compile module inspector; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.inspector" description="cleanup module">
+    <delete dir="${inspector.output.dir}"/>
+    <delete dir="${inspector.testoutput.dir}"/>
+  </target>
+</project>

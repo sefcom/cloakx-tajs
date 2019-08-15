@@ -1,0 +1,14 @@
+.DS_Store
+/build
+/antbuild
+/dist
+/out
+/doc
+/.idea*/**/*
+/.idea/workspace.xml
+/.idea/kotlinc.xml
+/local-development.properties
+.tajsconfig
+*.iml
+/**/test
+test-resources/
